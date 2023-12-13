@@ -1,0 +1,28 @@
+package javaapplication74;
+
+import javax.swing.JOptionPane;
+        
+        public class JavaApplication74 {
+  public static void main(String[] args){
+    double[]array=new double[10];
+    int cont=0;
+     String linha="";
+    
+     for(int i=0;i<10;i++)
+     {
+     array[i]=Integer.parseInt(JOptionPane.showInputDialog(null,"digite os  valores"));
+     }
+    for(int j=9;j>=0;j--)
+    {
+    linha=linha+array[j]+"\n";
+  
+  
+  
+    }
+     JOptionPane.showMessageDialog(null,linha);
+     
+     
+     }
+        }
+    
+  
